@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/taxants-website/static/css/main.78be2b38.chunk.css",
+    "main.js": "/taxants-website/static/js/main.91adacc7.chunk.js",
+    "main.js.map": "/taxants-website/static/js/main.91adacc7.chunk.js.map",
+    "runtime-main.js": "/taxants-website/static/js/runtime-main.683bc1f5.js",
+    "runtime-main.js.map": "/taxants-website/static/js/runtime-main.683bc1f5.js.map",
+    "static/css/2.57926e29.chunk.css": "/taxants-website/static/css/2.57926e29.chunk.css",
+    "static/js/2.606a25e1.chunk.js": "/taxants-website/static/js/2.606a25e1.chunk.js",
+    "static/js/2.606a25e1.chunk.js.map": "/taxants-website/static/js/2.606a25e1.chunk.js.map",
+    "index.html": "/taxants-website/index.html",
+    "static/css/2.57926e29.chunk.css.map": "/taxants-website/static/css/2.57926e29.chunk.css.map",
+    "static/css/main.78be2b38.chunk.css.map": "/taxants-website/static/css/main.78be2b38.chunk.css.map",
+    "static/js/2.606a25e1.chunk.js.LICENSE.txt": "/taxants-website/static/js/2.606a25e1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/taxants-website/static/media/signup.25964293.jpg",
+    "static/media/image2.f57e37a5.jpg": "/taxants-website/static/media/image2.f57e37a5.jpg",
+    "static/media/image3.de2e4145.jpg": "/taxants-website/static/media/image3.de2e4145.jpg",
+    "static/media/unnamed.1dc42f2a.jpg": "/taxants-website/static/media/unnamed.1dc42f2a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.683bc1f5.js",
+    "static/css/2.57926e29.chunk.css",
+    "static/js/2.606a25e1.chunk.js",
+    "static/css/main.78be2b38.chunk.css",
+    "static/js/main.91adacc7.chunk.js"
+  ]
+}
