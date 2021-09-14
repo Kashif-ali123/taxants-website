@@ -1,7 +1,7 @@
 .btn1 {
   border: none;
   background: transparent;
-  padding: 6px 16px;
+  padding: 6px 8px;
   font-size: 1.1rem;
   color: #fff;
   background: blue;
@@ -9,7 +9,8 @@
   transition: 0.3s all ease-out;
   cursor: pointer;
   margin-bottom: 20px;
-  margin-right: 50px;
+  margin-right: 60px;
+  
 }
 
 .btn1:hover {

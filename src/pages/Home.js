@@ -1,6 +1,8 @@
 import React from "react";
 import { FaStopCircle, FaRegUser, FaLock } from 'react-icons/fa';
 import { FooterContainer } from '../containers/footer';
+import Pro from './Pro';
+import Image from "./Image";
 
 
 function Home() {
@@ -12,8 +14,8 @@ function Home() {
       <p>Let us File your Tax...</p>
       <button>Get Started</button>
       </div>
-      <div className="img">
-        <img src="/assets/img2.png" alt=""  className="image"/>
+      <div className="kash">
+       <Image />
 
       </div>
        
@@ -41,19 +43,25 @@ function Home() {
     <h1>Student Cases</h1>
     <p>Out of these three which student you want to be?</p>
     </div>
-    <div className="images1">
-  <img src="/assets/count.jpg" alt=""  /> 
+    {/* <div className="images1"> */}
+    <div className="pro">
+    <Pro  />
+    </div>
+  {/* <img src="/assets/count.jpg" alt=""  /> 
 
-     
+    
   
   <span><img src="/assets/account.jpg" alt="" /></span>
 
  
    
- <span><img src="/assets/study.jpg" alt=""  /></span>
+ <span><img src="/assets/study.jpg" alt=""  /></span> */}
 
+    {/* </div>  */}
+    
+  
     </div>
-    </div>
+   
    <FooterContainer />
     </>
   );

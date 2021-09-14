@@ -18,12 +18,12 @@ export const navItems = [
     path: "./more",
     cName: "nav-item",
   },
-  {
-    id: 3,
-    title: "Dashboard",
-    path: "./dash",
-    cName: "nav-item",
-  },
+  // {
+  //   id: 3,
+  //   title: "Dashboard",
+  //   path: "./dash",
+  //   cName: "nav-item",
+  // },
   {
     id: 3,
     title: "Post",

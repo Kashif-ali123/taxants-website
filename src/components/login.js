@@ -5,9 +5,10 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
+import { useHistory } from 'react-router';
 
 const Login = ({ handleChange }) => {
-
+let history = useHistory();
     const paperStyle = { padding: 20, height: '73vh', width: 500, margin: "0 auto" }
     const avatarStyle = { backgroundColor: '#1bbd7e' }
     const btnstyle = { margin: '8px 0' }
@@ -55,8 +56,11 @@ const Login = ({ handleChange }) => {
                                 label="Remember me"
                             />
                             <Button type='submit' color='primary' variant="contained" disabled={props.isSubmitting}
-                                style={btnstyle} fullWidth>{props.isSubmitting ? "Loading" : "Sign in"}</Button>
-
+                                style={btnstyle} fullWidth onClic>{props.isSubmitting ? "Loading" : "Sign in"}</Button>
+                      <Button onClick={()=>{
+                          history.push("/dash");
+                      }}
+                      >Login </Button>
                         </Form>
                     )}
                 </Formik>
@@ -66,7 +70,7 @@ const Login = ({ handleChange }) => {
                 </Link>
                 </Typography>
                 <Typography > Do you have an account ?
-                     <Link href="#" onClick={() => handleChange("event", 1)} >
+                     <Link href="/" onClick={() => handleChange("event", 1)} >
                         Sign Up
                 </Link>
                 </Typography>

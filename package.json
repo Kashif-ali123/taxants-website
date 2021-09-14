@@ -1,5 +1,6 @@
 {
   "name": "tax",
+  "homepage": "https://Kashif-ali123.github.io/taxants-website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +21,7 @@
     "chartjs-plugin-zoom": "^1.1.1",
     "date-fns": "^2.23.0",
     "formik": "^2.2.9",
+    "gh-pages": "^3.2.3",
     "granim": "^2.0.0",
     "hammerjs": "^2.0.8",
     "howler": "^2.2.3",
@@ -53,6 +55,8 @@
     "yup": "^0.32.9"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,6 +1,6 @@
 .navbar {
   height: 10vh;
-  background: #1b1919;
+  background: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,12 +27,14 @@
   width: 65vw;
   justify-content: flex-end;
   margin-right: 5rem;
+
 }
 
 .nav-item {
   display: flex;
   align-items: center;
   height: 10vh;
+  margin-right: 20px;
 }
 
 .nav-item a {

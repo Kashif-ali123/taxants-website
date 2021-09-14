@@ -8,10 +8,13 @@ import Notification from "./ActionTab/Notification";
 import BlogPost from "../BodyComponent/BlogPost";
 import Dashboard from "../BodyComponent/Dashboard/Dashboard";
 import Link1 from "../BodyComponent/Link1";
+import {Redirect} from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 
 
 
 export default function HearderComponent() {
+  let history = useHistory();
   const classes = useStyles();
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -36,11 +39,13 @@ export default function HearderComponent() {
           <Route exact path='/dashboard' render={() => <Dashboard />} />
           {/* <Route exact path='/blog' render={() => <BlogPost />} /> */}
           <Route exact path='/link1' render={() => <Link1 />} />
+         
         
           
           <Route exact path='/notification' render={() => <Notification />} />
         </Switch>
       </Box>
+      
     </Fragment>
   );
 }

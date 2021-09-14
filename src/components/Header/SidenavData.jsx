@@ -6,6 +6,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@material-ui/core";
+
 import { NavLink } from "react-router-dom";
 import { useStyles } from "./HeaderStyle";
 
@@ -14,10 +15,12 @@ import BookIcon from "@material-ui/icons/Book";
 import PostAddIcon from "@material-ui/icons/PostAdd";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import {useHistory} from 'react-router-dom'
 
 
 
 export default function SidenavData({ handleDrawerClose }) {
+  let history = useHistory();
   const classes = useStyles();
   const listItemData = [
     { label: "Dashboard", link: "/dashboard", icon: <DashboardIcon /> },
@@ -51,7 +54,9 @@ export default function SidenavData({ handleDrawerClose }) {
             <ListItemText>{item.label}</ListItemText>
           </ListItem>
         </Button>
+        
       ))}
     </List>
+  
   );
 }

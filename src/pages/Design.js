@@ -54,7 +54,7 @@ const Design=(props) => {
 
       <CardGroup className="price-card">
       <Card className="card-img">
-        <CardImg className="img3" top  src="/assets/basic.jpg" />
+        {/* <CardImg className="img3" top  src="/assets/home.jpg" /> */}
         <CardBody className="card-body">
           <CardTitle tag="h3">Basic</CardTitle>
           <CardSubtitle tag="h2" className="mb-2 text-muted">$29.99</CardSubtitle>
@@ -67,7 +67,7 @@ const Design=(props) => {
         </CardBody>
       </Card>
       <Card className="card-img">
-        <CardImg className="img3" top   src="/assets/img2.png"  />
+        {/* <CardImg className="img3" top   src="/assets/count.png"  /> */}
         <CardBody className="card-body">
           <CardTitle tag="h3">Person</CardTitle>
           <CardSubtitle tag="h2" className="mb-2 text-muted">£100</CardSubtitle>
@@ -80,7 +80,7 @@ const Design=(props) => {
         </CardBody>
       </Card>
       <Card className="card-img">
-        <CardImg className="img3" top src="/assets/home2.jpg"  />
+        {/* <CardImg className="img3" top src="/assets/mn.jpg"  /> */}
         <CardBody className="card-body">
           <CardTitle tag="h3">Home</CardTitle>
           <CardSubtitle tag="h2" className="mb-2 text-muted">$200</CardSubtitle>
